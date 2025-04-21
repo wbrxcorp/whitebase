@@ -1,5 +1,7 @@
 #!/bin/sh
-if [ -f /var/www/localhost/htdocs/data/.ocdata ]; then
+set -e
+DATA_DIR=/var/www/localhost/htdocs/data
+if [ -f $DATA_DIR/.ocdata -o -f $DATA_DIR/.ncdata ]; then
 	occ upgrade
 else
 	occ maintenance:install --database=mysql --database-name=nextcloud --database-user=nextcloud --database-pass='' --admin-user=admin --admin-pass=admin
