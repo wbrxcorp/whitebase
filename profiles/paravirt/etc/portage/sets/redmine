@@ -4,24 +4,14 @@ mail-mta/postfix
 net-fs/samba
 dev-vcs/git
 dev-util/ragel
-dev-ruby/rexml
+dev-ruby/racc
 dev-ruby/rmagick
 dev-ruby/public_suffix
 dev-ruby/htmlentities
-dev-ruby/mocha
-dev-ruby/parallel
 dev-ruby/ruby-openid
-dev-ruby/redcarpet
-dev-ruby/rouge
 dev-ruby/yard
-dev-ruby/zeitwerk
 www-servers/puma
 dev-ruby/addressable
-dev-ruby/ffi
 dev-libs/openssl-compat # needed by passenger
 www-apache/passenger
-dev-ruby/bundler
-dev-ruby/rails-html-sanitizer
-dev-ruby/builder
-dev-ruby/erubi
-dev-ruby/tzinfo
+#dev-ruby/bundler

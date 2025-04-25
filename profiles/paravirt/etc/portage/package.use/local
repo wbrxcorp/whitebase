@@ -11,6 +11,7 @@ dev-libs/openssl weak-ssl-ciphers # some binary still depends on this
 app-admin/ulogd sqlite
 net-libs/nodejs npm
 media-video/ffmpeg mp3 xvid x264 x265 vpx cpudetection mmx mmxext theora threads truetype v4l vorbis webp vdpau fontconfig librtmp
+media-gfx/imagemagick jpeg postscript svg tiff webp wmf xml zip
 
 # Restrict ruby versions
 */* RUBY_TARGETS: -ruby31 ruby32 -ruby33

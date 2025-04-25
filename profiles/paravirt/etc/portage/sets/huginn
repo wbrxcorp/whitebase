@@ -9,14 +9,8 @@ dev-ruby/http_parser_rb
 dev-ruby/bcrypt-ruby
 dev-ruby/concurrent-ruby
 dev-ruby/thread_safe
-dev-ruby/tzinfo
-dev-ruby/builder
-dev-ruby/erubi
-dev-ruby/i18n
 dev-ruby/zeitwerk
-dev-ruby/bundler
-dev-ruby/rails-html-sanitizer
-dev-ruby/rack-test
+#dev-ruby/bundler
 dev-ruby/public_suffix
 dev-ruby/rexml
 dev-ruby/webrick

@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-download https://www.redmine.org/releases/redmine-5.1.3.tar.gz | tar zxf - --strip-components=1 -C /var/www/localhost/htdocs
+download https://www.redmine.org/releases/redmine-6.0.5.tar.gz | tar zxf - --strip-components=1 -C /var/www/localhost/htdocs
 
 chown -R apache.apache /var/www/localhost
 rm -rf /usr/local/lib64/ruby/gems/*/cache
