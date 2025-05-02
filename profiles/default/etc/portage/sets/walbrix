@@ -72,7 +72,7 @@ net-dialup/rp-pppoe
 net-dialup/ppp-scripts
 net-analyzer/nmap
 net-analyzer/snort
-net-analyzer/suricata
+#net-analyzer/suricata # incompatible with Python 3.13
 net-misc/ndisc6
 mail-mta/ssmtp
 net-vpn/openvpn

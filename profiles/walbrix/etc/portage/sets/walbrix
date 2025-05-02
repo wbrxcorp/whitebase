@@ -21,7 +21,7 @@ sys-fs/ddrescue
 app-admin/testdisk
 sys-apps/gptfdisk
 sys-block/open-iscsi
-sys-fs/bcache-tools
+#sys-fs/bcache-tools # incompatible with python 3.13
 sys-fs/bcachefs-tools
 net-dns/bind-tools
 net-analyzer/traceroute

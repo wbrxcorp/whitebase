@@ -16,9 +16,5 @@ media-gfx/imagemagick jpeg postscript svg tiff webp wmf xml zip
 # Restrict ruby versions
 */* RUBY_TARGETS: -ruby31 ruby32 -ruby33
 
-# Restrict python versions
-*/* PYTHON_TARGETS: -python3_13 python3_12 -python3_11
-*/* PYTHON_SINGLE_TARGET: -python3_13 python3_12 -python3_11
-
 # Restrict PHP version
 */* PHP_TARGETS: -php8-0 -php8-1 php8-2

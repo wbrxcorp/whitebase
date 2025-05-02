@@ -6,6 +6,3 @@ app-editors/vim minimal
 sys-apps/kexec-tools lzma
 app-arch/rpm lua caps lua_single_target_lua5-4
 app-crypt/libb2 -openmp
-
-*/* PYTHON_TARGETS: -python3_13 python3_12 -python3_11
-*/* PYTHON_SINGLE_TARGET: -python3_13 python3_12 -python3_11

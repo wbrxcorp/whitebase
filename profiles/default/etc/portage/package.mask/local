@@ -1,7 +1,3 @@
-# exclude python version other than profile default(see portage/profiles/base/make.defaults)
->=dev-lang/python-3.13
-<dev-lang/python-3.12
-
 x11-libs/gtk+
 <dev-cpp/gtkmm-4
 

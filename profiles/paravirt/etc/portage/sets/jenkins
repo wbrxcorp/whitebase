@@ -3,7 +3,7 @@ dev-util/jenkins-bin
 dev-java/openjdk-bin
 mail-mta/postfix
 dev-vcs/git-lfs
-net-misc/s3cmd
+#net-misc/s3cmd # incompatible with Python 3.13
 app-containers/docker
 net-libs/nodejs
 dev-java/sbt-bin

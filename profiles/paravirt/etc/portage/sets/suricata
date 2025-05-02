@@ -1,5 +1,5 @@
 genpack/paravirt
-net-analyzer/suricata
+#net-analyzer/suricata #incompatible with Python 3.13
 net-analyzer/zabbix
 net-fs/samba
 net-dns/avahi

@@ -1,3 +1,4 @@
 # exclude python version other than profile default(see portage/profiles/base/make.defaults)
 >=dev-lang/python-3.14
 <dev-lang/python-3.13
+
