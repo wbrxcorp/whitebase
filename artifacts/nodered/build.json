@@ -1,5 +1,5 @@
 {
 	"profile":"paravirt",
 	"packages":["@nodered"],
-	"services":["nodered","nftables-restore"]
+	"services":["nodered","mosquitto", "nftables-restore"]
 }

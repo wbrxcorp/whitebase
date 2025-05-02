@@ -2,3 +2,4 @@ genpack/paravirt
 net-firewall/nftables
 net-libs/nodejs
 app-admin/sudo
+app-misc/mosquitto
