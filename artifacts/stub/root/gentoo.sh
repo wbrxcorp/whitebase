@@ -48,7 +48,7 @@ cp /etc/resolv.conf /mnt/etc/
 [ -d /root/.ssh ] && cp -a /root/.ssh /mnt/root/
 [ -d /etc/ssh -a -d /mnt/etc/ssh ] && cp -a /etc/ssh/*_key /etc/ssh/*_key.pub /mnt/etc/ssh/
 echo 'sys-kernel/installkernel dracut' >> /mnt/etc/portage/package.use/kernel
-chroot /mnt emerge gentoo-kernel-bin
+chroot /mnt env USE="-quic -http2 -http3 -curl_quic_openssl" emerge gentoo-kernel-bin
 chroot /mnt systemctl enable systemd-resolved sshd
 mv /mnt/etc/issue.logo /mnt/etc/issue
 umount /mnt/dev
