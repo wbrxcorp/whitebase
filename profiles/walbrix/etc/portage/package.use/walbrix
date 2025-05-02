@@ -13,7 +13,8 @@ dev-lang/perl minimal
 sys-apps/kmod lzma -python
 net-misc/rsync xxhash rrsync
 dev-db/mysql -perl -server
-app-emulation/qemu aio bzip2 curl fdt filecaps -gtk jpeg ncurses nls virtfs -oss pin-upstream-blobs png vhost-user-fs -pulseaudio -python usb vhost-net vnc xattr -opengl -virgl xfs -xkb -xen QEMU_SOFTMMU_TARGETS: x86_64 aarch64 riscv64 QEMU_USER_TARGETS: aarch64 riscv64
+app-emulation/qemu aio bzip2 curl fdt filecaps -gtk jpeg ncurses nls virtfs -oss pin-upstream-blobs png vhost-user-fs -pulseaudio -python usb vhost-net vnc spice xattr virgl opengl xfs -xkb -xen QEMU_SOFTMMU_TARGETS: x86_64 aarch64 riscv64 QEMU_USER_TARGETS: aarch64 riscv64
+media-libs/libglvnd X
 dev-vcs/git -perl -gpg -python
 net-analyzer/net-snmp -python
 net-wireless/wpa_supplicant dbus

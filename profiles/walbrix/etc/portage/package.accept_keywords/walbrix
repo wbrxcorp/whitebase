@@ -10,3 +10,4 @@ net-libs/libhtp
 dev-cpp/argparse
 dev-libs/iniparser # for iniparser-4.2.5
 net-vpn/tailscale
+app-emulation/qemu # for QEMU 9.2 with vulkan support
