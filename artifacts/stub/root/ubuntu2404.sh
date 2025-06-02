@@ -17,7 +17,7 @@ MIRROR="http://ports.ubuntu.com/ubuntu-ports"
 case "$(uname -m)" in
     x86_64)
         ARCH="amd64"
-	MIRROR="http://www.ftp.ne.jp/Linux/packages/ubuntu/archive"
+	MIRROR="http://jp.archive.ubuntu.com/ubuntu"
         ;;
     aarch64)
         ARCH="arm64"
